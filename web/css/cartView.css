@@ -1,0 +1,30 @@
+#cartTbl{
+	width:100%;
+	margin-top:10px;
+	border:1px solid lightgrey;
+	border-collapse:collapse;
+}
+#subBtn{
+	width:100px;
+	height:40px;
+	background-color:black;
+	color:white;
+	border-style:none;
+	transform:translate(1060%,0%);
+	margin-top:10px;
+	font-weight:bolder;
+}
+#cartHead{
+	font-size:35px;
+}
+#cartValue{
+	font-size:25px;
+}
+#totalSum{
+	font-size:25px;
+	border-style:none;
+}
+#totalSpan{
+	transform:translate(75%,0);
+	font-size:25px;
+}

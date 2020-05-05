@@ -1,0 +1,100 @@
+
+
+/* 강좌 스터디 목록 */
+#title{
+    
+    /* padding-right: 900px; */
+   /*  text-align: center; */
+	margin-top : 50px;
+	margin-left : 100px;
+    font-weight:bolder;
+    font-size:25px;
+}
+
+.main_list{
+	/* text-align: center; */
+    /* margin-bottom: 100px; */
+    /* margin-top:100px; */
+    /* padding-right:300px; */
+    margin-top : 30px;
+    margin-left : 100px;
+    display : inline-block;
+    margin-bottom : 50px;
+}
+
+.make{
+     margin-top:20px;
+     margin-right: 160px;
+}
+/* .make img{
+    padding-bottom: 10px;
+    부엉이 이미지 아래 간격
+} */
+
+    
+.make img:hover{
+	transform:perspective(400px) rotateZ(30deg);
+
+}
+
+.open-lecture-container{
+	margin-left : 300px;
+	display : inline-block;
+}
+  
+.open-lecture-container a{
+    font-size: 20px;
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    text-align: right;
+    /* padding-left: 80px; */
+    /* margin-left: 1000px; */
+}
+.list_start {
+    text-align: center;
+    margin-top:10px;
+    display: flex;
+	first    
+}
+/* 이미지리스트간 속성 */
+.list_detail{
+	border-radius:20px;
+	color:black;
+	text-align:center;
+    display: inline-block;
+    width: 220px;
+    height: 260px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    opacity: 0;
+    text-decoration:none;
+    background-color:#E7E7E7;
+   /* 	float:left; */
+}  
+
+.list_detail:hover{
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+}
+
+
+select{
+    height:30px;
+    width: 200px; /* 원하는 너비설정 */
+}
+ #lectorTitle{
+ 	text-align:center;
+     padding-top: 15px;
+     font-weight: bolder;
+     font-size: 18px;
+ }
+ 
+ .pagination{
+ margin-left:600px;
+ }
+ 
+ #searchType{
+ 	margin-left:100px;
+ }
+
